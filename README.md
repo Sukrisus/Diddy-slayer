@@ -1,27 +1,3 @@
-Android Port of LÖVE, an awesome 2D game engine for Lua (http://love2d.org)  
-Copyright (c) 2006-2024 LOVE Development Team
-
-![Build Status](https://github.com/love2d/love-android/workflows/build/badge.svg)
-
-Download:
----------
-
-You can download pre-built Android packages from https://github.com/love2d/love/releases/latest that allow
-you to run .love files by opening them using a file manager of your choice.
-
-Important:
-----------
-
-If you want to build from source, make sure to clone the submodules too. Often errors include missing
-liblove.so and "Missing LÖVE" error when building. A proper way to clone this repository is:
-
-```
-git clone --recurse-submodules https://github.com/love2d/love-android
-```
-
-Add `-b <branch/tag name>` and `--depth 1` if needed.
-
-If you already cloned the repository but forgot to initialize the submodules, execute:
 
 ```
 git submodule sync --recursive
